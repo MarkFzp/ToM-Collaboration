@@ -1,4 +1,4 @@
-# Emergence of Theory of Mind Collaboration in Multiagent Systems (NeurIPS 2019 Workshop) https://arxiv.org/pdf/2110.00121#
+# Emergence of Theory of Mind Collaboration in Multiagent Systems (NeurIPS 2019 Workshop) https://arxiv.org/pdf/2110.00121 #
 
 Detailed the implementations for our algorithm and benchmarks can be found in this folder.
 
