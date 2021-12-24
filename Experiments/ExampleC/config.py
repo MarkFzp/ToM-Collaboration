@@ -1,0 +1,22 @@
+from easydict import EasyDict as edict
+
+configs = [edict({'batch_size': 64,
+                  'ckpt_dir': 'CKPT_soft',
+                  'q_learning_rate': 1e-3,
+                  'q_learning_gamma': 0.6,
+                  'policy_learning_rate': 3e-4,
+                  'belief_learning_rate': 3e-4,
+                  'switch_iters': 1e5,
+                  'splits': 1,
+                  'memory_size': 1e3}),
+           edict({'num_slots': 8,
+                  'acting_boltzman_beta': 10,
+                  'success_reward': 1,
+                  'fail_reward': -2,
+                  'step_reward': -0.1,
+                  'fixed_fc_layer_info': [20, 10],
+                  'fixed_single_length': [20, 10],
+                  'fixed_context_length': [8, 6]}),
+           edict({'history_dim': 20, 'fc_layer_info': [20, 15, 10]}),
+           edict({'history_dim': 20, 'fc_layer_info': [20, 15, 10]}),
+           edict({'history_dim': 20, 'fc_layer_info': [30, 20]})]
